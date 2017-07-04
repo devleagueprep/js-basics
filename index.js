@@ -16,15 +16,64 @@ console.log(pet);
 * Each value should be a String. 
 **/
 
+var firstName = "Baseem";
+console.log(firstName);
+var lastName = "Missaghi";
+console.log(lastName);
+var birthPlace = "Minnesota";
+console.log(birthPlace);
+var favoriteFood = "Pizza";
+console.log(favoriteFood);
+var bestMovie = "Goonies";
+console.log(bestMovie);
+var favLoveSong = "Titanic";
+console.log(favLoveSong);
+var cuteAnimal = "Panda";
+console.log(cuteAnimal);
+var favColor = "Blue"
+console.log(favColor);
+var favSneaker = "Nike";
+console.log(favSneaker);
+var coffeeShop = "Dunn Bros";
+console.log(coffeeShop);
+
+
 
 /**
 * #2
 * Variables with a Number value
+
 *
 * Declare variables named `favoriteNumber`, `currentYear`, `thatOnePrinceSong`, 'tokyoOlympics`, `mariahCareyAge`, `currentTemp`, `studentsInClass`, `numOfJapanPrefectures`, `currentIphoneModel` and `shoeSize`.     
 *
 * Each value should be a Number
 **/
+
+var favoriteNumber = 8;
+console.log(favoriteNumber);
+var currentYear = 2017;
+console.log(currentYear);
+var thatOnePrinceSong = 1999;
+console.log(thatOnePrinceSong);
+var tokyoOlympics = 1964;
+console.log(tokyoOlympics);
+var mariahCareyAge = 47;
+console.log(mariahCareyAge);
+var currentTemp = 80;
+console.log(currentTemp);
+var studentsInClass = 8;
+console.log(studentsInClass);
+var numOfJapanPrefectures = 47;
+console.log(numOfJapanPrefectures);
+var currentIphoneModel = 7;
+console.log(currentIphoneModel);
+var shoeSize = 12;
+console.log(shoeSize);
+
+
+
+
+
 
 
 /**
@@ -36,6 +85,28 @@ console.log(pet);
 * Each value should be a Boolean
 **/
 
+var likesMcDonalds = true;
+console.log(likesMcDonalds);
+var watchedMrRobot = true;
+console.log(watchedMrRobot);
+var ranMarathon = false;
+console.log(ranMarathon);
+var wrestledABear = false;
+console.log(wrestledABear);
+var lovesDonuts = true;
+console.log(lovesDonuts);
+var readHarryPotter = true;
+console.log(readHarryPotter);
+var sleptInClass = true;
+console.log(sleptInClass);
+var drinksCoffee = true;
+console.log(drinksCoffee);
+var shopsAtWholeFoods = true;
+console.log(shopsAtWholeFoods);
+var ownsRedShoes = true;
+console.log(ownsRedShoes);
+
+
 
 /**
 * #4
@@ -46,11 +117,23 @@ console.log(pet);
 * Each value should be Null 
 **/
 
+var completedPrepClass = null;
+console.log(completedPrepClass);
+var traveledToMars = null;
+console.log(traveledToMars);
+var scoredTDinNFL = null; 
+console.log(scoredTDinNFL);
+
+
 
 /*
 #5. 
 * What is the difference between null and undefined? Type your answer in two or three commented-out sentences.
 */
+
+/**
+null - can become something late in the code, if the var is give a value. undefined has no value, the var has been written with out value for example var time = ;
+**/
 
 
 /**
@@ -65,6 +148,19 @@ console.log(pet);
 * Declare a variable named `mixPlate` and assign it an array containing different data types of your choosing.
 **/
 
+var plateLunch = ["rice","pasta","korean chicken","mochiko chicken","fries"]
+console.log(plateLunch);
+var fruitBasket = ["banana","orange","strawbery","kiwi","avacado"]
+console.log(fruitBasket);
+var westCoast = ["oregon","Washington","California","nevada","hawaii"]
+console.log(westCoast);
+var lotteryResult = [1,2,3,4,5]
+console.log(lotteryResult);
+var duets = ["Prince",["Purple Rain"],"Jay-Z",["99 Problems"],"Journey",["Dont Stop Believing"]];
+console.log(duets);
+var mixPlate = ["chicken",5,"potatoes",4]
+console.log(mixPlate);
+
 
 
 /*7
@@ -76,6 +172,13 @@ What is the length of this array? Please print the length (a number) to the cons
 What is the index position of carrot cake? Please print this item to the console.
 What is the index position of lemon bars? Please print this item to the console.
 */
+var partyList = ["carrot cake", "rocky road ice cream", "mochiko chicken", "orange tang", "lemon bars"];
+console.log(partyList.length);
+console.log(partyList[0]);
+console.log(partyList[4]);
+
+
+
 
 
 
@@ -92,6 +195,17 @@ What is the index position of lemon bars? Please print this item to the console.
 *Declare a new variable, `mariahStory`. Assign it the value of concatenating the variables `mariahCareyAge`, `favSneaker`, `favLoveSong` and `coffeeShop` to create the following sentence:
 At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 */
+var fullName = firstName + " " + lastName;
+console.log(fullName);
+var whereFrom = fullName + " " + "is from" + " " + birthPlace;
+console.log(whereFrom);
+var mariahStory = "At the age of" + " " + mariahCareyAge +","+" " + "Mariah Carey," + " " + "wearing her fancy" + " " + favSneaker + "," + " " +"sang" + " " + favLoveSong + " " + "at the" + " " + coffeeShop;
+console.log(mariahStory);
+
+
+
+
+
 
 
 
@@ -108,6 +222,23 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * What is the remainder when you divide num1 by num2? Print your answer to the console.
 */
 
+var num1 = 20;
+var num2 = 5;
+var sum = num1 + num2;
+console.log(sum);
+var difference = num1 - num2;
+console.log(difference);
+var product = num1 * num2;
+console.log(product);
+var quotient = num1 / num2;
+console.log(quotient);
+var remainder = num1%num2;
+console.log(remainder);
+
+
+
+
+
 
 /*
 * #10
@@ -123,12 +254,38 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * Print both variables to the console. If the answers are different, why? If not, why not? Write you answer two or three commented-out sentences.
 */
 
+
+var isStrictlyEqual = "Tacocat" === "tacocat";
+console.log(isStrictlyEqual);
+var isLooselyEqual = "Tacocat" == "tacocat";
+console.log(isLooselyEqual);
+/**
+Both answer are false - 
+isStrictlyEqual - should result to false - because the strings are not the same.
+isLooselyEqual - i thought the == would be true, not sure why its false
+
+**/
+
+
 /*
 * Use the logical && or || and compare the following:
 * 3>2 3<1 (use or)
 * 3>2 6>3 (use and)
 * 7>2 8<5 (use and)
 * Declare variables and print the results to the console. What are the differences between the three and why?*/
+
+var logicalOR = 3>2 || 3<1;
+console.log(logicalOR);
+/** either can be true because both are true in the sense they are either greater or less than the other #
+**/
+var logicalAnd = 3>2 && 6>3;
+console.log(logicalAnd);
+/** both are greater than the other number resulting in true
+**/
+var _logicalAnd = 7>2 && 8<5;
+console.log(_logicalAnd);
+/** both are not true, 7 is greater, 8 is not less than.
+**/
 
 
 
@@ -145,6 +302,26 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * assignment statement to show the current value. REMEMBER: an assignment is DIFFERENT from a declaration.
 */
 
+var myBox = 100;
+console.log(myBox);
+myBox++;
+console.log(myBox);
+myBox--;
+console.log(myBox);
+myBox+=10;
+console.log(myBox);
+myBox-=50;
+console.log(myBox);
+myBox*=2;
+console.log(myBox);
+
+
+
+
+
+
+
+
 /*
 * Final Boss 
 * Additional exercises designed to further challenge you and give you a jump start on the next topic that'll be covered.
@@ -156,16 +333,28 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * Declare a variable 'pieResult' and assign it to the function call.
 * Console.log the variable to see the result.*/
 
+var bakePie = function (ingredient) {
+    console.log("Today's special" + " " + ingredient + " " + "pie");
+};
+bakePie("blueberry");
+
+
+
+
+
 
 /*
 * Declare a Function named `jump` which has a single parameter, `height`.
 * This function should return a string, "You jumped height feet high!" Where height will be the value that you pass into the function.
 * For example, if the value is 9, it should return "You jumped 9 feet high!"
 
-
-
 * Declare a variable 'jumpResult' and assign it to the function call.
 * Console.log the variable to see the result.*/
+var jump = function (height) {
+    console.log("You jumped" + " " + height + " " + "feet high!");
+};
+jump("9");
+
 
 
 /*
@@ -173,4 +362,15 @@ At the age of xx, Mariah Carey, wearing her fancy xx, sang xx at the xx.
 * This function should return a String along the lines of, "Tomatoes and Cheese make a Pizza!"
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 */
+
+var cook = function (ingredient1,ingredient2,recipeName) {
+    console.log(ingredient1 + " " + "and" + " " + ingredient2 + " " + "make a" + " " + recipeName);
+};
+cook("Tomatoes", "Cheese", "Pizza");
+
+
+
+
+
+
 
